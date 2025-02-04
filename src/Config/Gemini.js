@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 async function runChat(prompt) {
-    const genAI = new GoogleGenerativeAI("AIzaSyCd19ixIgy-MqIalexbUktHhLIcMZb3_rY"); // Replace with a valid API key
+    const genAI = new GoogleGenerativeAI("YOUR_API_KEY"); // Replace with a valid API key
     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
     try {
